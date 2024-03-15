@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+/* Dashboard.css */
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.metric-card {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+}
+
+.metric-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.metric-button {
+  margin-top: 1rem;
+}
